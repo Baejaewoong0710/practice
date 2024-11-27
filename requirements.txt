@@ -1,7 +1,7 @@
-streamlit>=1.0
-matplotlib>=3.4
-numpy>=1.21
+streamlit==1.25.0  # 최신 Streamlit 버전 사용
+numpy==1.26.0      # Numpy 라이브러리
 pandas==2.1.0      # 데이터프레임 처리를 위해 사용
+matplotlib==3.9.0  # 그래프와 시각화를 위해 필요
 scipy==1.11.3      # 수학적 계산
 plotly==5.17.0     # 대화형 그래프
 three.js           # Three.js가 npm 패키지로 작동되는 경우 pip로 직접 설치하지 않음
